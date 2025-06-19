@@ -18,7 +18,7 @@ func main() {
 
 	config, err := util.LoadConfig(".")
 	if err != nil {
-		log.Fatal("cannot connect to db: ", err)
+		log.Fatal("cannot load config: ", err)
 		return
 	}
 
